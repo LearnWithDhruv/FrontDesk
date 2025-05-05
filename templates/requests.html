@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Pending Requests{% endblock %}
+
+{% block content %}
+<h2>Pending Help Requests</h2>
+<div id="requests-list" class="list-group mt-3">
+    {% for request in requests %}
+    <div class="list-group-item request-item" data-id="{{ request.id }}">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h5>{{ request.caller_id }}</h5>
+                <p>{{ request.question }}</p>
+                <small class="text-muted">
+                    {{ request.created_at.strftime('%Y-%m-%d %H:%M') }}
+                </small>
+            </div>
+            <form method="POST" action="{{ url_for('respond', request_id=request.id) }}" 
+                  class="response-form">
+                <div class="input-group">
+                    <input type="text" name="answer" class="form-control" 
+                           placeholder="Your response..." required>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    {% else %}
+    <div class="alert alert-info">No pending requests!</div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Request History{% endblock %}
+
+{% block content %}
+<h2>Request History</h2>
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Caller</th>
+            <th>Question</th>
+            <th>Status</th>
+            <th>Answered At</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for request in requests %}
+        <tr>
+            <td>{{ request.caller_id }}</td>
+            <td>{{ request.question }}</td>
+            <td>
+                <span class="badge bg-{% if request.status == 'resolved' %}success{% else %}warning{% endif %}">
+                    {{ request.status }}
+                </span>
+            </td>
+            <td>
+                {% if request.resolved_at %}
+                {{ request.resolved_at.strftime('%Y-%m-%d %H:%M') }}
+                {% else %}
+                -
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

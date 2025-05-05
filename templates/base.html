@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bella's Salon - {% block title %}{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url_for('index') }}">Bella's Salon</a>
+            <div class="navbar-nav">
+                <a class="nav-link" href="{{ url_for('pending_requests') }}">Pending Requests</a>
+                <a class="nav-link" href="{{ url_for('request_history') }}">History</a>
+                <a class="nav-link" href="{{ url_for('learned_answers') }}">Knowledge Base</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-info">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </div>
+
+    <script>
+        const socket = io();
+        socket.on('new_request', (data) => {
+            location.reload(); // Refresh on new requests
+        });
+        socket.on('update_request', (data) => {
+            if(data.status === 'resolved') {
+                location.reload();
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
