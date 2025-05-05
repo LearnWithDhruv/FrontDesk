@@ -1,5 +1,5 @@
 
-# AI Assistant Voice App
+# AI Customer Service (LiveAgent)
 
 This repository appears to be an AI-powered voice assistant application, using technologies like:
 - Whisper for speech-to-text
