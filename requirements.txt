@@ -1,0 +1,9 @@
+livekit-agents
+firebase-admin
+flask
+python-dotenv
+openai-whisper
+sounddevice
+scipy
+gTTS
+llama_cpp_python

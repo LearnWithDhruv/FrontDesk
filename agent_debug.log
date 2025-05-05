@@ -1,0 +1,1124 @@
+2025-05-03 11:50:16,520 - livekit.agents - INFO - starting worker
+2025-05-03 11:50:16,533 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,533 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,537 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,537 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,539 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,539 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,540 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,542 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,542 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,544 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,545 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,546 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:50:16,551 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,551 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,552 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,552 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,553 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,554 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,554 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,555 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,582 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,586 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,586 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,586 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:50:16,589 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 11:50:17,367 - livekit.agents - WARNING - failed to connect to livekit, retrying in 0s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 11:50:17,450 - livekit.agents - WARNING - failed to connect to livekit, retrying in 2s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 11:50:19,961 - livekit.agents - WARNING - failed to connect to livekit, retrying in 4s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 11:50:23,972 - livekit.agents - WARNING - failed to connect to livekit, retrying in 6s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 11:50:30,049 - livekit.agents - WARNING - failed to connect to livekit, retrying in 8s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 11:50:39,308 - livekit.agents - WARNING - failed to connect to livekit, retrying in 10s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 11:50:48,054 - livekit.agents - INFO - draining worker
+2025-05-03 11:50:48,056 - livekit.agents - INFO - shutting down worker
+2025-05-03 11:54:13,048 - livekit.agents - INFO - starting worker
+2025-05-03 11:54:13,054 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,054 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,055 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,055 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,056 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,056 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,056 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,058 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,058 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,058 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,059 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,059 - livekit.agents - INFO - initializing job runner
+2025-05-03 11:54:13,061 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,061 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,062 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,062 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,062 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,062 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,062 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,063 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,065 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,065 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,065 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,065 - livekit.agents - INFO - job runner initialized
+2025-05-03 11:54:13,075 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 11:54:13,269 - livekit.agents - INFO - registered worker
+2025-05-03 12:03:59,599 - livekit.agents - INFO - draining worker
+2025-05-03 12:03:59,599 - livekit.agents - INFO - shutting down worker
+2025-05-03 12:04:10,277 - livekit.agents - INFO - starting worker
+2025-05-03 12:04:10,283 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,283 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,284 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,284 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,284 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,286 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,286 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,286 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,286 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,287 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,287 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,287 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:04:10,290 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,290 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,292 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,292 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,292 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,292 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,292 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,292 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,293 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,293 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,293 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,294 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:04:10,303 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 12:04:10,541 - livekit.agents - INFO - registered worker
+2025-05-03 12:05:00,413 - livekit.agents - INFO - draining worker
+2025-05-03 12:05:00,414 - livekit.agents - INFO - shutting down worker
+2025-05-03 12:05:12,790 - livekit.agents - INFO - starting worker
+2025-05-03 12:05:12,794 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,794 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,794 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,794 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,798 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,798 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,798 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,798 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,798 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,798 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,798 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,798 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:05:12,803 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,803 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,803 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,803 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,803 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,805 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,805 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,805 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,806 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,806 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,806 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,806 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:05:12,816 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 12:05:13,020 - livekit.agents - INFO - registered worker
+2025-05-03 12:11:05,447 - livekit.agents - WARNING - failed to connect to livekit, retrying in 0s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 668, in _connection_task
+    await self._run_ws(ws)
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 749, in _run_ws
+    await asyncio.gather(*tasks)
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 721, in _recv_task
+    raise Exception("worker connection closed unexpectedly")
+Exception: worker connection closed unexpectedly
+2025-05-03 12:11:05,852 - livekit.agents - INFO - registered worker
+2025-05-03 12:29:31,741 - livekit.agents - INFO - draining worker
+2025-05-03 12:29:31,744 - livekit.agents - INFO - shutting down worker
+2025-05-03 12:29:49,001 - livekit.agents - INFO - starting worker
+2025-05-03 12:29:49,025 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,025 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,025 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,025 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,025 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,025 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,025 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,025 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,033 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,033 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,033 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,033 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:29:49,041 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,049 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,054 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,055 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,055 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,055 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,055 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,055 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,057 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,057 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,057 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,057 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:29:49,066 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 12:29:49,835 - livekit.agents - INFO - registered worker
+2025-05-03 12:37:59,360 - livekit.agents - INFO - draining worker
+2025-05-03 12:37:59,361 - livekit.agents - INFO - shutting down worker
+2025-05-03 12:38:15,945 - livekit.agents - INFO - starting worker
+2025-05-03 12:38:15,952 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,952 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,952 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,953 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,953 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,953 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,954 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,954 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,954 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,955 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,955 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,955 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:15,957 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,957 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,959 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,959 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,959 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,960 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,960 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,960 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,961 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,961 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,961 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,961 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:15,971 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 12:38:17,326 - livekit.agents - WARNING - failed to connect to livekit, retrying in 0s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 12:38:17,361 - livekit.agents - WARNING - failed to connect to livekit, retrying in 2s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 12:38:19,409 - livekit.agents - WARNING - failed to connect to livekit, retrying in 4s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 12:38:23,440 - livekit.agents - WARNING - failed to connect to livekit, retrying in 6s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 12:38:41,722 - livekit.agents - INFO - starting worker
+2025-05-03 12:38:41,727 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,728 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,728 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,728 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,729 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,729 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,729 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,729 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,730 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,730 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,730 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,731 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:38:41,733 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,733 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,733 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,733 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,734 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,735 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,735 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,735 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,736 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,736 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,736 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,737 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:38:41,746 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 12:38:41,950 - livekit.agents - INFO - registered worker
+2025-05-03 12:41:48,459 - livekit.agents - INFO - draining worker
+2025-05-03 12:41:48,466 - livekit.agents - INFO - shutting down worker
+2025-05-03 12:42:02,097 - livekit.agents - INFO - starting worker
+2025-05-03 12:42:02,097 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,107 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,107 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,107 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,107 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,107 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,107 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,107 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,107 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,107 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,107 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,110 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:02,112 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,112 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,112 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,114 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,114 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,112 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,114 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,115 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,115 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,115 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,115 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,117 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:42:02,123 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 12:42:02,331 - livekit.agents - INFO - registered worker
+2025-05-03 12:42:07,532 - livekit.agents - INFO - received job request
+2025-05-03 12:42:07,562 - salon_agent - INFO - Starting agent
+2025-05-03 12:42:07,562 - salon_agent - ERROR - Agent failed: JobContext.connect() got an unexpected keyword argument 'url'
+2025-05-03 12:42:07,562 - salon_agent - INFO - Agent stopped
+2025-05-03 12:42:07,565 - livekit.agents - ERROR - unhandled exception while running the job task
+Traceback (most recent call last):
+  File "D:\Front\agent.py", line 171, in entrypoint
+    await ctx.connect(
+          ^^^^^^^^^^^^
+TypeError: JobContext.connect() got an unexpected keyword argument 'url'
+2025-05-03 12:42:07,604 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:42:07,604 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:48:42,891 - livekit.agents - INFO - draining worker
+2025-05-03 12:48:44,884 - livekit.agents - WARNING - exiting forcefully
+2025-05-03 12:49:21,796 - livekit.agents - INFO - starting worker
+2025-05-03 12:49:21,801 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,802 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,803 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,803 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,804 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,804 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,804 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,805 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,805 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,806 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,806 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,807 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:49:21,809 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,810 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,810 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,810 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,810 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,810 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,810 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,811 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,811 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,811 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,814 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,814 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:49:21,823 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 12:49:22,019 - livekit.agents - INFO - registered worker
+2025-05-03 12:56:26,954 - livekit.agents - INFO - draining worker
+2025-05-03 12:56:26,955 - livekit.agents - INFO - shutting down worker
+2025-05-03 12:56:38,050 - livekit.agents - INFO - starting worker
+2025-05-03 12:56:38,056 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,057 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,057 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,058 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,058 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,058 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,059 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,059 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,059 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,060 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,060 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,060 - livekit.agents - INFO - initializing job runner
+2025-05-03 12:56:38,063 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,063 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,064 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,064 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,064 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,064 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,065 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,065 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,065 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,066 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,066 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,067 - livekit.agents - INFO - job runner initialized
+2025-05-03 12:56:38,077 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 12:56:38,740 - livekit.agents - INFO - registered worker
+2025-05-03 13:26:38,796 - livekit.agents - INFO - draining worker
+2025-05-03 13:26:38,796 - livekit.agents - INFO - shutting down worker
+2025-05-03 13:26:58,658 - livekit.agents - INFO - starting worker
+2025-05-03 13:26:58,666 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,666 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,666 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,666 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,666 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,666 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,668 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,668 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,670 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,670 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,671 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,671 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:26:58,673 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,675 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,675 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,675 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,675 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,675 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,677 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,677 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,677 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,677 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,677 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,677 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:26:58,693 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 13:26:59,516 - livekit.agents - WARNING - failed to connect to livekit, retrying in 0s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 13:26:59,716 - livekit.agents - WARNING - failed to connect to livekit, retrying in 2s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 13:27:01,916 - livekit.agents - INFO - registered worker
+2025-05-03 13:27:19,835 - livekit.agents - INFO - draining worker
+2025-05-03 13:27:19,835 - livekit.agents - INFO - shutting down worker
+2025-05-03 13:27:38,444 - livekit.agents - INFO - starting worker
+2025-05-03 13:27:38,453 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,453 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,453 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,457 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,457 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,458 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,458 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,458 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,458 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,460 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,460 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,460 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:27:38,462 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,462 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,462 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,462 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,465 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,465 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,466 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,466 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,466 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,466 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,467 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,467 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:27:38,478 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 13:27:39,047 - livekit.agents - INFO - registered worker
+2025-05-03 13:28:28,610 - livekit.agents - INFO - received job request
+2025-05-03 13:28:28,713 - salon_agent - INFO - Starting salon agent
+2025-05-03 13:28:28,714 - salon_agent - ERROR - Agent failed: JobContext.connect() got an unexpected keyword argument 'host'
+2025-05-03 13:28:28,714 - salon_agent - INFO - Agent session ended
+2025-05-03 13:28:28,715 - livekit.agents - ERROR - unhandled exception while running the job task
+Traceback (most recent call last):
+  File "D:\Front\agent.py", line 198, in entrypoint
+    await ctx.connect(
+          ^^^^^^^^^^^^
+TypeError: JobContext.connect() got an unexpected keyword argument 'host'
+2025-05-03 13:28:28,827 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:28:28,827 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:47:59,780 - livekit.agents - INFO - draining worker
+2025-05-03 13:48:00,504 - livekit.agents - WARNING - exiting forcefully
+2025-05-03 13:53:11,474 - livekit.agents - INFO - starting worker
+2025-05-03 13:53:11,481 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,481 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,481 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,481 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,486 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,487 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,487 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,487 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,487 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,488 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,488 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,488 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:11,491 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,492 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,492 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,492 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,492 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,492 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,493 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,493 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,493 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,494 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,494 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,494 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:11,501 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 13:53:12,380 - livekit.agents - WARNING - failed to connect to livekit, retrying in 0s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 13:53:13,161 - livekit.agents - WARNING - failed to connect to livekit, retrying in 2s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 13:53:15,644 - livekit.agents - WARNING - failed to connect to livekit, retrying in 4s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 13:53:19,707 - livekit.agents - WARNING - failed to connect to livekit, retrying in 6s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 13:53:25,774 - livekit.agents - WARNING - failed to connect to livekit, retrying in 8s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 13:53:34,367 - livekit.agents - WARNING - failed to connect to livekit, retrying in 10s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1021, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 401, message='Invalid response status', url='wss://frontdesk-gy402rup.livekit.cloud/agent'
+2025-05-03 13:53:41,549 - livekit.agents - INFO - draining worker
+2025-05-03 13:53:41,549 - livekit.agents - INFO - shutting down worker
+2025-05-03 13:53:57,322 - livekit.agents - INFO - starting worker
+2025-05-03 13:53:57,329 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,329 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,329 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,330 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,330 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,330 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,332 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,332 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,332 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,333 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,333 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,333 - livekit.agents - INFO - initializing job runner
+2025-05-03 13:53:57,335 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,336 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,336 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,336 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,336 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,336 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,336 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,339 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,339 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,339 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,339 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,339 - livekit.agents - INFO - job runner initialized
+2025-05-03 13:53:57,349 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 13:53:57,663 - livekit.agents - INFO - registered worker
+2025-05-03 14:03:27,884 - livekit.agents - INFO - received job request
+2025-05-03 14:03:27,979 - salon_agent - INFO - Starting salon agent
+2025-05-03 14:03:27,979 - salon_agent - ERROR - Agent failed: JobContext.connect() got an unexpected keyword argument 'host'
+2025-05-03 14:03:27,981 - salon_agent - INFO - Agent session ended
+2025-05-03 14:03:27,981 - livekit.agents - ERROR - unhandled exception while running the job task
+Traceback (most recent call last):
+  File "D:\Front\agent.py", line 198, in entrypoint
+    await ctx.connect(
+          ^^^^^^^^^^^^
+TypeError: JobContext.connect() got an unexpected keyword argument 'host'
+2025-05-03 14:03:28,028 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:03:28,028 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:36,523 - livekit.agents - INFO - draining worker
+2025-05-03 14:06:38,967 - livekit.agents - WARNING - exiting forcefully
+2025-05-03 14:06:48,850 - livekit.agents - INFO - starting worker
+2025-05-03 14:06:48,862 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,863 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,863 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,864 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,864 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,865 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,866 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,866 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,866 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,866 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,868 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,868 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:06:48,872 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,873 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,873 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,873 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,873 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,873 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,873 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,873 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,873 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,876 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,878 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,878 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:06:48,889 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 14:06:49,454 - livekit.agents - INFO - registered worker
+2025-05-03 14:11:29,864 - livekit.agents - INFO - draining worker
+2025-05-03 14:11:29,864 - livekit.agents - INFO - shutting down worker
+2025-05-03 14:11:42,846 - livekit.agents - INFO - starting worker
+2025-05-03 14:11:42,852 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,856 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,856 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,858 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,858 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,858 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,858 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,858 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,861 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,861 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,861 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,862 - livekit.agents - INFO - initializing job runner
+2025-05-03 14:11:42,866 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,866 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,866 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,866 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,868 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,868 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,868 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,868 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,868 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,868 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,868 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,868 - livekit.agents - INFO - job runner initialized
+2025-05-03 14:11:42,884 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-03 14:11:43,303 - livekit.agents - INFO - registered worker
+2025-05-03 15:03:16,039 - livekit.agents - WARNING - failed to connect to livekit, retrying in 0s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 668, in _connection_task
+    await self._run_ws(ws)
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 749, in _run_ws
+    await asyncio.gather(*tasks)
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 721, in _recv_task
+    raise Exception("worker connection closed unexpectedly")
+Exception: worker connection closed unexpectedly
+2025-05-03 15:25:02,567 - livekit.agents - WARNING - failed to connect to livekit, retrying in 2s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 607, in _request
+    with timer:
+  File "D:\Front\venv\Lib\site-packages\aiohttp\helpers.py", line 685, in __exit__
+    raise asyncio.TimeoutError from exc_val
+TimeoutError
+2025-05-03 15:25:05,543 - livekit.agents - INFO - registered worker
+2025-05-03 21:05:59,190 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 4.51 seconds
+2025-05-03 21:05:59,688 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 178.45 seconds
+2025-05-03 21:05:59,688 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 178.45 seconds
+2025-05-03 21:06:00,251 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 179.01 seconds
+2025-05-03 21:06:00,251 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 179.01 seconds
+2025-05-03 21:06:00,251 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 179.01 seconds
+2025-05-03 21:06:00,251 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 179.01 seconds
+2025-05-03 21:06:00,251 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 179.01 seconds
+2025-05-03 21:06:00,251 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 179.01 seconds
+2025-05-03 21:06:00,251 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 179.01 seconds
+2025-05-03 21:06:00,251 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 179.01 seconds
+2025-05-03 21:06:00,251 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 179.01 seconds
+2025-05-03 21:06:00,251 - livekit.agents - WARNING - Running <Task pending name='Task-121' coro=<ThreadJobExecutor._ping_task() running at D:\Front\venv\Lib\site-packages\livekit\agents\utils\log.py:16> wait_for=<Future pending cb=[Task.task_wakeup()]>> took too long: 179.01 seconds
+2025-05-03 21:06:00,266 - livekit.agents - WARNING - failed to connect to livekit, retrying in 0s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 668, in _connection_task
+    await self._run_ws(ws)
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 749, in _run_ws
+    await asyncio.gather(*tasks)
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 721, in _recv_task
+    raise Exception("worker connection closed unexpectedly")
+Exception: worker connection closed unexpectedly
+2025-05-03 21:06:00,282 - livekit.agents - WARNING - failed to connect to livekit, retrying in 2s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host frontdesk-gy402rup.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-05-03 21:06:02,814 - livekit.agents - WARNING - failed to connect to livekit, retrying in 4s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host frontdesk-gy402rup.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-05-03 21:06:06,863 - livekit.agents - WARNING - failed to connect to livekit, retrying in 6s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host frontdesk-gy402rup.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-05-03 21:06:08,429 - livekit.agents - WARNING - job executor is unresponsive
+2025-05-05 12:23:35,069 - livekit.agents - INFO - starting worker
+2025-05-05 12:23:35,074 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,074 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,083 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,083 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,083 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,085 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,085 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,086 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,086 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,086 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,089 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,089 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:23:35,095 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,095 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,099 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,099 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,099 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,099 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,099 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,099 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,099 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,099 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,099 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,099 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:23:35,116 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-05 12:23:35,338 - livekit.agents - INFO - registered worker
+2025-05-05 12:26:21,386 - livekit.agents - INFO - received job request
+2025-05-05 12:26:21,418 - salon_agent - INFO - Starting salon agent
+2025-05-05 12:26:21,421 - salon_agent - ERROR - Agent failed: JobContext.connect() got an unexpected keyword argument 'host'
+2025-05-05 12:26:21,422 - salon_agent - INFO - Agent session ended
+2025-05-05 12:26:21,422 - livekit.agents - ERROR - unhandled exception while running the job task
+Traceback (most recent call last):
+  File "D:\Front\agent.py", line 217, in entrypoint
+    await ctx.connect(
+          ^^^^^^^^^^^^
+TypeError: JobContext.connect() got an unexpected keyword argument 'host'
+2025-05-05 12:26:21,527 - livekit.agents - INFO - initializing job runner
+2025-05-05 12:26:21,528 - livekit.agents - INFO - job runner initialized
+2025-05-05 12:27:20,087 - livekit.agents - WARNING - failed to connect to livekit, retrying in 0s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 668, in _connection_task
+    await self._run_ws(ws)
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 749, in _run_ws
+    await asyncio.gather(*tasks)
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 721, in _recv_task
+    raise Exception("worker connection closed unexpectedly")
+Exception: worker connection closed unexpectedly
+2025-05-05 12:27:20,092 - livekit.agents - WARNING - failed to connect to livekit, retrying in 2s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host frontdesk-gy402rup.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-05-05 12:27:22,127 - livekit.agents - WARNING - failed to connect to livekit, retrying in 4s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host frontdesk-gy402rup.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-05-05 12:27:26,152 - livekit.agents - WARNING - failed to connect to livekit, retrying in 6s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host frontdesk-gy402rup.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-05-05 12:27:32,186 - livekit.agents - WARNING - failed to connect to livekit, retrying in 8s
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\asyncio\base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\anaconda3\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Front\venv\Lib\site-packages\livekit\agents\worker.py", line 633, in _connection_task
+    ws = await self._http_session.ws_connect(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Front\venv\Lib\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host frontdesk-gy402rup.livekit.cloud:443 ssl:default [getaddrinfo failed]
+2025-05-05 12:27:34,520 - livekit.agents - INFO - draining worker
+2025-05-05 12:27:37,103 - livekit.agents - WARNING - exiting forcefully
+2025-05-05 13:00:29,015 - livekit.agents - INFO - starting worker
+2025-05-05 13:00:29,024 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,024 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,025 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,025 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,025 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,026 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,026 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,027 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,027 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,028 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,028 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,028 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:29,031 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,031 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,033 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,034 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,034 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,034 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,034 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,036 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,036 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,037 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,039 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,039 - livekit.agents - INFO - job runner initialized
+2025-05-05 13:00:29,052 - livekit.agents - INFO - see tracing information at http://localhost:8081/debug
+2025-05-05 13:00:29,675 - livekit.agents - INFO - registered worker
+2025-05-05 13:00:56,744 - livekit.agents - INFO - received job request
+2025-05-05 13:00:56,790 - salon_agent - INFO - Starting salon agent
+2025-05-05 13:00:56,791 - salon_agent - ERROR - Agent failed: JobContext.connect() got an unexpected keyword argument 'host'
+2025-05-05 13:00:56,791 - salon_agent - INFO - Agent session ended
+2025-05-05 13:00:56,792 - livekit.agents - ERROR - unhandled exception while running the job task
+Traceback (most recent call last):
+  File "D:\Front\agent.py", line 192, in entrypoint
+    await ctx.connect(
+          ^^^^^^^^^^^^
+TypeError: JobContext.connect() got an unexpected keyword argument 'host'
+2025-05-05 13:00:56,829 - livekit.agents - INFO - initializing job runner
+2025-05-05 13:00:56,830 - livekit.agents - INFO - job runner initialized
