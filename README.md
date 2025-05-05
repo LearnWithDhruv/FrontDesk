@@ -94,12 +94,15 @@ pip install -r requirements.txt
 
 # Run the app
 python app.py
+
+# Run the backend agent
+python agent.py start
 ```
 
 ---
 
 ## Notes
-- Ensure your `.env` file contains all sensitive configs (Firebase credentials, API keys).
+- Ensure your `.env` file contains all sensitive configs (Firebase credentials, API keys, Flask secret).
 - Update paths in `firebase_init.py` and `llm.py` to point to correct credentials or endpoints.
 
 ---
